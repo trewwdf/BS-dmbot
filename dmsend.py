@@ -25,7 +25,7 @@ async def on_message(message):
             else:
                 try:
                     msg = message.content[4:]
-                    if message.author.id ==739449973208514611
+                    if message.author.id ==739449973208514611:
                         embed = discord.Embed(color=0x1DDB16, timestamp=message.created_at, title="제목")
                         embed.add_field(name="", value=msg, inline=True)
                         embed.set_footer(text=f"discord.gg/12345")
