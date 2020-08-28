@@ -28,7 +28,7 @@ async def on_message(message):
                     #메시지 관리권한이 있을시 사용가능
                     if message.author.guild_permissions.manage_messages:
                         embed = discord.Embed(color=0x1DDB16, timestamp=message.created_at)
-                        embed.add_field(name="하온샵", value=msg, inline=True)
+                        embed.add_field(name="", value=msg, inline=True)
                         embed.set_footer(text=f"discord.gg/12345")
                         await i.send(embed=embed)
                 except:
